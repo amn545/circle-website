@@ -1,0 +1,147 @@
+h1{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 5px solid ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(skyblue,lightgreen);
+    margin: 50px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: 2px -4px 40px orange;
+   }
+
+    h2{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(lightgreen,skyblue);
+    margin: 50px;
+    margin-left: 150px;
+    margin-top: -160px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: 2px -4px 40px orange;
+   }
+
+    h3{
+    width: 0px;
+    height: 135px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(lightgreen,skyblue);
+    background-color:transparent;
+    margin: 99px;
+    rotate: -45deg;
+    margin-top: -173px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: -0.5px 4px 20px 4px orange;
+    }
+
+    h4{
+    width: 0px;
+    height: 135px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(skyblue,lightgreen);
+    background-color:transparent;
+    margin: 102px;
+    rotate: -45deg;
+    margin-top: -444px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: -0.5px 4px 20px 4px orange;
+    }
+
+    h5{
+    width: 0px;
+    height: 135px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(skyblue,lightgreen);
+    background-color:transparent;
+    margin: 305px;
+    rotate: -45deg;
+    margin-top: -244px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: -0.5px 4px 20px 4px orange;
+    }
+
+    h6{
+    width: 0px;
+    height: 135px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(lightgreen,skyblue);
+    background-color:transparent;
+    margin: 303px;
+    rotate: -45deg;
+    margin-top: -243px;
+    /* transition: 5s; */
+    animation: animateBg 3s linear infinite;
+    box-shadow: -0.5px 4px 20px 4px orange;
+    }
+
+    @keyframes animateBg {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    } 
+
+    p{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: -webkit-linear-gradient(skyblue,lightgreen);
+    
+    -webkit-text-fill-color: transparent;
+    animation: animateBg 3s linear infinite;
+    }
+
+    .firstCube{
+    margin-left: 150px;
+    margin-top: -630px;
+    }
+
+    .secondCube{
+    margin-left: 350px;
+    margin-top: -630px;
+    }
+
+    .thirdCube{
+    margin-left: 550px;
+    margin-top: -629px;
+    }
+
+    .fourthCube{
+    margin-left: 950px;
+    margin-top: -629px;
+    }
+
+    .sixCube{
+    margin-left: 200px;
+    margin-top: -629px;
+    }
+
+    .sevenCube{
+    margin-left: 400px;
+    margin-top: -629px;
+    }
+
+    .eightCube{
+    margin-left: 800px;
+    margin-top: -629px;
+    }
+
+    .nineCube{
+    margin-left: 900px;
+    margin-top: -629px;
+    }
+
+    body{
+    background: linear-gradient(black,grey,grey,black);
+    }
+
